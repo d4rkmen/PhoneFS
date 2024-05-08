@@ -1,0 +1,207 @@
+.Language=English,English
+.PluginContents=PhoneFS
+
+
+@Contents
+$ #PhoneFS version 3.0.0.280#
+System requirements: Win7+ / FAR 3.0.0.2927+
+
+  ~What is PhoneFS~@hcWhatIs@
+
+  ~Configure plugin~@hcConfigure@
+
+  ~Supported Phones~@hcSupportedPhones@
+
+  ~Connecting a phone~@hcConnect@
+
+  ~Work with a phone~@hcWork@
+
+
+Visit us: #www.unlock.se#
+
+@hcWhatIs
+$ #PhoneFS - What is PhoneFS#
+  #PhoneFS# brings all the power of #Far Manager#  to  Your mobile phone
+filesystem. This is the easiest way to manage files on a phone. PhoneFS uses
+OBEX (Object Exchange) protocol to access files. You can work with folders
+as easy as with single file. PhoneFS recursively process all files inside
+a folder. On a progress screen during the process You can see:
+
+
+   -#Source and Destanation filenames#
+
+   -#Current file progress bar#
+
+   -#Total files size information#
+
+   -#Total progress bar#
+
+   -#Number of files processed/total#
+
+   -#Time elapsed and estimate#
+
+   -#Current transfer speed#
+
+
+
+
+  ~Go to main screen~@Contents@
+
+@hcConfigure
+$ #PhoneFS - Configure plugin#
+  Before the beginning of work with PhoneFS, You need to adjust  some
+parameters. To enter in the configuration menu, choose #PhoneFS# from
+the Far menu #Options#/#Plugins configuration#:
+
+
+   #Add to Plugins menu#         - leave checked if You want to  see 
+PhoneFS in Plugins dialog #F11#
+
+   #Add to Disks menu#           - leave checked to be able to select
+PhoneFS from Disks menu #Alt+F1/Alt+F2#
+
+
+
+ 
+  ~Go to main screen~@Contents@
+
+@hcSupportedPhones
+$ #PhoneFS - Supported phones#
+  There are onbly tested models in the list below. Feel free to report
+us a new models in case PhoneFS works fine with it: #info@@unlock.se#
+
+  ~SonyEricsson~
+
+ C510, C702, C901, C902, C903, C905, D750, F100, J105, G502, G705, K310, K320, K510, K530, K550, 
+K600, K608, K610, K618, K630, K660, K700, K750, K758, K770, K790, K800, 
+K810, K850, K858, S500, T650, T700, T707, TM506, U10, U100, V600, V630, V640, V800, W200, 
+W300, W350, W380, W508, W550, W580, W595, W600, W610, W660, W700, W710, W760, 
+W800, W810, W830, W850, W880, W888, W890, W900, W902, W908, W910, W980, W995,
+Z310, Z520, Z525, Z530, Z550, Z555, Z558, Z610, Z710, Z750, Z770, Z780, 
+Z800
+
+  ~NOKIA~
+
+ 3109 Classic, 3110 Classic, 3250, 3500 Classic, 5220 XpressMusic, 5300 XpressMusic,
+5310 XpressMusic, 5320 XpressMusic, 5500 Sport, 5610 XpressMusic, 6120 Classic, 6131, 6151, 6233, 
+6270, 6280, 6288, 6300, 6500 Classic, 6500 Slide, 6630, 6680, 7370, 7373, 7500 
+Prism, 7900, 8600 Luna, 9500, E50, E51, E60, E61i, E65, E71, E90, N73, N75, N78, N80-1, N81, 
+N82, N91-1, N95, N95 8GB, N95-3, N95-4 8GB
+
+
+
+  ~Go to main screen~@Contents@
+@hcWork
+$ #PhoneFS - Work with a phone#
+  PhoneFS allows You to work with a phone filesystem absolutely the same way
+as You doing it with a local drive:
+
+
+  #F5#/#F6#        - Copy/move a file/folder from/to the local disk.
+
+  #F7#             - Create a new folder on a phone.
+
+  #F8#             - Delete file/folder from a phone.
+
+  #Alt+F7#         - Find files
+
+
+
+
+  ~Go to main screen~@Contents@
+
+@hcConnect
+$ #PhoneFS - Connecting a phone#
+   You can open PhoneFS from Disks Menu #Alt+F1#/#Alt+F2# or from Plugins
+Dialog #F11#. No additional software (PC Suite etc.) required for PhoneFS 
+to work. You need to have cable drivers only.
+
+  ~SonyEricsson~
+
+   Before connect the phone You need to make sure SIM-cadr is present and
+PIN is entered
+.
+Phone can be connected by:
+   -USB cable. #DCU-60# / #DCU-65# is the cable that comes with phone 
+in a box. Drivers You can find in Download Area at #www.unlock.se# 
+   -InfraRed (standart IR-link modem)
+   -BlueTooth (Virtual Serial Port service)
+The fastest way for sure is USB cable. To connect a phone You need to plug
+USB cable and select #SonyEricsson USB# item on PhoneFS connection form.
+
+
+   ~NOKIA~
+
+   NOKIA modems doesn't support OBEX protocol and wireless connections are
+not possible. You need to have USB cable to work with PhoneFS (it comes with a phone) 
+#DKE-2#/#CA-53#/#CA-70#/#CA-101#. NOKIA Connectivity Cable drivers You can find in Download Area at #www.unlock.se#.
+To connect  the phone You need to plug USB cable, select #Nokia mode# 
+(or #PC Suite#) on the target device and switch to #NOKIA USB# item on PhoneFS 
+connection form.                                                   
+
+
+   ~Select Device~
+
+   -#SonyEricsson USB#  - lookup for SonyEricsson OBEX WMC device interfaces
+
+   -#NOKIA USB#         - lookup for NOKIA USB OBEX device interfaces
+
+   -#Serial ports#      - lookup for Serial (UART) port devices interfaces
+
+   -#Modems#            - lookup for Modem device interfaces
+
+   -#All COM ports#     - lookup for all ports present in system
+
+
+   ~Device Settings~
+
+   Here You can setup communication device settings:
+
+   -#Port#          - selected port
+
+   -#Speed#         - COM-port baudrate (ignored on USB connections)
+
+   -#RTS# and #DTR# - COM-port flow control. Can be usefull for some hardware
+serial devices.
+
+   -#Packet#        - OBEX maximum packet size. Default value is 65536.
+You should decrease it only if You have communication problems.
+
+   -#Direct OBEX#   - leave checked in case no need to send any AT-command to
+initialize OBEX protocol.
+
+
+
+
+  ~Go to main screen~@Contents@
+@hcCopy
+$ #PhoneFS - Copy#
+   Specify destenation path for files to place
+
+
+
+  ~Go to main screen~@Contents@
+
+@hcMakeDirectory
+$ #PhoneFS - Make Directory#
+   Specify the new folder name
+
+
+
+  ~Go to main screen~@Contents@
+
+@hcDelete
+$ #PhoneFS - Delete#
+   Confirm files delete from a phone
+
+
+
+  ~Go to main screen~@Contents@
+
+@hcBreak
+$ #PhoneFS - Break#
+   Confirm termination of current operation
+
+
+
+  ~Go to main screen~@Contents@
